@@ -1,0 +1,16 @@
+def bubble_sort(vetor):
+    n = len(vetor)
+    troca = True
+
+    while troca:
+        troca = False
+        for i in range(n - 1):
+            if vetor[i] > vetor[i + 1]:
+                vetor[i], vetor[i + 1] = vetor[i + 1], vetor[i]
+                troca = True
+
+vetor = [9, 5, 7, 2, 6, 1, 3, 0, 4, 8]
+
+bubble_sort(vetor)
+
+print("Vetor ordenado:", vetor)
