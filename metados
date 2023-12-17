@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exemplo de metadados">
+    <meta name="keywords" content="HTML, exemplo, metadados">
+    <meta name="author" content="Seu Nome">
+    <title>Minha Página</title>
+</head>
+<body>
+    <!-- Conteúdo da página aqui -->
+</body>
+</html>
