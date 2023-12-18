@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto Turístico em Bom Jesus dos Perdões, SP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ponto Turístico em Bom Jesus dos Perdões, SP</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Santuário do Senhor Bom Jesus dos Perdões</h2>
+            <p>Um local de profunda espiritualidade e beleza que se destaca como um dos principais pontos turísticos da cidade. Este santuário, é mergulhado de histórias e devoções, cativa visitantes de todas as partes com suas missas reverentes, imagens sagradas e festas comemorativas memoráveis.</p>
+        </section>
+
+        <section>
+            <h2>Imagens do Ponto Turístico</h2>
+            <img src="https://www.unifaat.com.br/uploads/Post/2022/05/bom-jesus-dos-perdoes-uma-trajetoria-de-fe-e-trabalho-1652883760.jpg" alt="Santuário">
+
+            <h2>Cachoeira do Barrocão</h2>
+            <img src="https://i.ytimg.com/vi/wXx7ozdNTa8/maxresdefault.jpg" alt="Cachoeira">
+  
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ponto Turístico em Bom Jesus dos Perdões, SP</p>
+    </footer>
+
+</body>
+
+</html>
