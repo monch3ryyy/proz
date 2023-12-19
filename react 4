@@ -1,0 +1,34 @@
+// src/Botao.js
+import React, { useState } from 'react';
+
+function Botao() {
+  // Declaramos um estado chamado 'textoBotao' com o valor inicial 'Clique em mim'
+  const [textoBotao, setTextoBotao] = useState('Clique em mim');
+
+  // Função que será chamada quando o botão for clicado
+  const handleClick = () => {
+    setTextoBotao('Botão clicado!');
+  };
+
+  return (
+    <div>
+      <button onClick={handleClick}>{textoBotao}</button>
+    </div>
+  );
+}
+
+export default Botao;
+// src/App.js
+import React from 'react';
+import Botao from './Botao';
+
+function App() {
+  return (
+    <div>
+      <h1>Meu Aplicativo React</h1>
+      <Botao />
+    </div>
+  );
+}
+
+export default App;
