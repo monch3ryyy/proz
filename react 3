@@ -1,0 +1,27 @@
+// src/Saudacao.js
+import React from 'react';
+
+function Saudacao(props) {
+  return (
+    <div>
+      <h2>Olá, {props.nome}!</h2>
+    </div>
+  );
+}
+
+export default Saudacao;
+
+// src/App.js
+import React from 'react';
+import Saudacao from './Saudacao';
+
+function App() {
+  return (
+    <div>
+      <h1>Meu Aplicativo React</h1>
+      <Saudacao nome="Sabrina" />
+    </div>
+  );
+}
+
+export default App;
