@@ -1,3 +1,8 @@
+npm install -g create-react-app
+npx create-react-app meu-app
+cd meu-app
+npm start
+
 // src/App.js
 import React from 'react';
 
