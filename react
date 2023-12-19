@@ -1,0 +1,13 @@
+// src/App.js
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>Meu Primeiro Aplicativo React</h1>
+      <p>Bem-vindo ao React!</p>
+    </div>
+  );
+}
+
+export default App;
